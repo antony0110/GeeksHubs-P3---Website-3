@@ -19,6 +19,7 @@ function buscar(){
         <div class="peliculas">
         <p class="title">${movies[i].title}</p>
         <p class="overview">${movies[i].overview}</p>
+        <p class="overview">${movies [i].release_dates}</p>
         </div>`;
         }
         document.getElementById('titulo').innerHTML = BuscarPelis;

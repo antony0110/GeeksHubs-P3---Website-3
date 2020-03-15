@@ -33,14 +33,22 @@
  main{
     padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+
  }
  .title{
     padding: 10px;
     color: black;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
  }
  .peliculas{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.582);
+  border-radius: 3px ;
+  border-color: black;
+ }
+ .overview{
+     padding: 3px;
+     color: black;
+     font-family: 'Lato', sans-serif;
  }
