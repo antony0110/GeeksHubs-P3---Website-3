@@ -14,3 +14,33 @@
  #pelis{
      color: red;
  }
+ .fondo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+ 
+    top: 20%;
+    left: 50%;
+ 
+    transform: translateX(-40%) translateY(-30%);
+    z-index: -3;
+    opacity: 4;
+ 
+ }
+ #nav{
+    background-color: black;
+ }
+ main{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .title{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+ }
+ .peliculas{
+  background-color: white;
+ }
